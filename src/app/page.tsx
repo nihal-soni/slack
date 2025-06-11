@@ -1,9 +1,7 @@
-import { Button } from "@/components/ui/button";
+import { Authscreen } from "@/features/auth/components/auth-screen";
 
 export default function Home() {
   return (
-   <Button>
-    click me
-   </Button> 
+  <Authscreen/>
   );
 }
